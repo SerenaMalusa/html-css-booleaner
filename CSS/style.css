@@ -72,3 +72,7 @@ h1 {
     background-color: #b1e5f2;
 }
 
+/* testo evidenziato */
+.higlighted-text {
+    background-color: #fefe00;
+}
