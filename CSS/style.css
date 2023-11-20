@@ -41,3 +41,8 @@ h1 {
     margin: 0;
     font-size: 14px;
 }
+
+/* sezione delle immagini */
+.article-pictures {
+    margin: 20px 0;
+}
