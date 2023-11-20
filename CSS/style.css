@@ -3,9 +3,9 @@ body {
     margin: 0;
 }
 
-/* margine sinistro */
+/* margine sinistro e destro */
 .container {
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 /* HEADER */
@@ -42,12 +42,33 @@ h1 {
     font-size: 14px;
 }
 
-/* sezione delle immagini */
+/* immagini dell'articolo */
 .article-pictures {
     margin: 20px 0;
 }
 
-/* sezione della lista */
+/* lista */
 .article-list {
     padding: 10px;
 }
+
+/* tabella */
+/* elimino spazio bianco tra le celle */
+.article-table {
+    border-spacing: 0;
+  }
+
+.article-table-head {
+    text-align: left; 
+    background-color: #20a9e5;
+    color: white;
+}
+
+.article-table-cell {
+    width: 50%;
+}
+
+.article-table-row-blue{
+    background-color: #b1e5f2;
+}
+
