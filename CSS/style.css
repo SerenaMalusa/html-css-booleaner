@@ -46,3 +46,8 @@ h1 {
 .article-pictures {
     margin: 20px 0;
 }
+
+/* sezione della lista */
+.article-list {
+    padding: 10px;
+}
