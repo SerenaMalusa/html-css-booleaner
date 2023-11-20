@@ -51,6 +51,11 @@ h1 {
     margin: 20px 0;
 }
 
+/* corpo articolo */
+.article-body {
+    font-size: 20px;
+}
+
 /* lista */
 .article-list {
     padding: 14px;
@@ -84,10 +89,9 @@ h1 {
 /* footer */
 .footer-title {
     color: #a7a7a7;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-/* immagini */
 .footer-title {
     margin: 30px 0 0 0;
 }
@@ -96,16 +100,18 @@ h1 {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
 }
 
+/* immagini */
 .footer-picture {
-    height: 120px;
-    width: 200px;
+    height: 180px;
+    width: 250px;
     margin: 10px 0;
     padding: 15px;
     background-size: contain;
 }
+
 .picture-suggested-one {
     background-image: url(../img/monitor.jpg);
 }
