@@ -1,6 +1,9 @@
-/* elimino margine bianco su tutta la pagina */
+/* elimino margine bianco su tutta la pagina
+e setto font */
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 /* margine sinistro e destro */
@@ -75,4 +78,37 @@ h1 {
 /* testo evidenziato */
 .higlighted-text {
     background-color: #fefe00;
+}
+
+/* footer */
+.footer-title {
+    color: #a7a7a7;
+    font-size: 20px;
+}
+
+/* immagini */
+.footer-title {
+    margin: 30px 0 0 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer-picture {
+    height: 120px;
+    width: 200px;
+    margin: 10px 0;
+    padding: 15px;
+    background-size: contain;
+}
+.picture-suggested-one {
+    background-image: url(../img/monitor.jpg);
+}
+
+.picture-suggested-two {
+    background-image: url(../img/graph.jpg);
 }
