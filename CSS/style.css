@@ -3,6 +3,11 @@ body {
     margin: 0;
 }
 
+/*margine sinistro*/
+.container {
+    margin-left: 10px;
+}
+
 /* HEADER */
 header {
     background-color: #4ea0ff;
@@ -13,5 +18,4 @@ header {
 .logo {
     width: 200px;
     margin-top: 30px;
-    margin-left: 10px;
 }
